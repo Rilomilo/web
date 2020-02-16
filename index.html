@@ -1,0 +1,130 @@
+<html>
+	<head>
+		<title>My website</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="style.css">
+		<script src="demo.js"></script>
+		
+		<!-- <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script> -->
+		<script src="jquery-1.12.4.min.js"></script>
+		<script>
+			$(function(){
+				function b(){
+					this.a=1;
+					this.b=2;
+				}
+				a=new b();
+				
+				
+			})
+			
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<h1>web前端开发</h1>
+			</div>
+			<div id="main">
+				<div id="sidebar">
+					<div id="verifyCode">
+						<h2 id="code">验证码</h2>
+						<button onclick='createCode()'>验证码</button>
+						<div id="codeNumber">
+							<p>code</p>
+						</div>
+						<hr/>
+					</div>
+
+					<h2><a href="将进酒.html" style="color: blue">将进酒</a></h2>
+					<hr>
+					<button id="ajax" style="margin: 20px;">ajax请求</button>
+					<hr/>
+
+					<h2>表格</h2>
+					<table border="1">
+						<tr>
+							<td>
+								<img src="baidu.gif"/>
+							</td>
+							<td>
+								<p>2</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p>3</p>
+							</td>
+							<td>
+								<table border="1">
+									<tr>
+										<td><p>1</p></td>
+										<td><p>2</p></td>
+									</tr>
+									<tr>
+										<td><p>3</p></td>
+										<td><p>4</p></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+					<hr/>
+					
+					<h2>ul列表</h2>
+					<ul>
+						<li style="color:blue">君不见，黄河之水天上来，奔流到海不复回。</li>
+						<li>君不见，高堂明镜悲白发，朝如青丝暮成雪。</li>
+						<li>人生得意须尽欢，莫使金樽空对月。</li>
+						<li>天生我材必有用，千金散尽还复来。</li>
+					</ul>
+					<hr/>
+					
+					<h2>ol列表</h2>
+					<ol>
+						<li>君不见，黄河之水天上来，奔流到海不复回。</li>
+						<li>君不见，高堂明镜悲白发，朝如青丝暮成雪。</li>
+						<li>人生得意须尽欢，莫使金樽空对月。</li>
+						<li>天生我材必有用，千金散尽还复来。</li>
+					</ol>
+					<hr/>
+					
+					<h2><a href="table.html">table案例</a></h2>
+					<hr/>
+				</div>
+
+				<div id="content">
+					<h2>表单</h2>
+					<form>
+						<p>账户：<input type="text"/></p>
+						<p>密码：<input type="password"/></p>
+						<p>爱好：<input type="text"/><input type="submit" name="确定"/><input type="reset" name="重置"/></p>
+						<p>性别：男<input type="radio" name="gender"/> 女<input type="radio" name="gender"/></p>
+						<p>爱好：音乐<input type="checkbox"/ name="h"> 体育<input type="checkbox"/ name="h"> 阅读<input type="checkbox"/ name="h"></p>
+						<p>爱好：
+							<select>
+								<option>看书</option>
+								<option>旅游</option>
+								<option>运动</option>
+								<option>购物</option>
+							</select>
+						</p>
+						<p>个人简介：
+							<textarea rows="20" cols="100">请输入个人简介</textarea>
+						</p>
+					</form>
+					
+					<div id="box1">
+						<img src="coffee.jpg" style="width: 200px">
+						<div id="box2">一起享受咖啡带来的温暖吧</div>
+					</div>				
+					
+				</div>
+			</div>
+			<div id="footer">
+				<h2>页脚</h2>
+			</div>
+		</div>
+		<script src="test.js"></script>
+	</body>
+</html>
